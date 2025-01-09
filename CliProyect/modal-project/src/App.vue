@@ -14,11 +14,11 @@
     </Modal>
   </teleport>
   
-  <telepor v-if="showModalTwo">
+  <div v-if="showModalTwo">
     <Modal theme="asdsadasd" @close="toggleModalTwo">
       <h1>WAAAAAAAAAAAAAA</h1>
     </Modal>
-  </telepor>
+  </div>
   <button @click.alt="toggleModal">Open Modal(alt)</button>
   <button @click="toggleModalTwo">Open Modal Two</button>
   <!-- <input type="text" ref="name">
